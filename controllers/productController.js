@@ -72,7 +72,7 @@ const getProductById = async (req, res) => {
   }
 };
 
-// Update product
+// Update the product
 const updateProduct = async (req, res) => {
   const { sku, name, description, units, unitType, price, category, image } = req.body;
   try {
